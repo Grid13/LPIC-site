@@ -1,5 +1,0 @@
-pymysql
-uuid
-asyncio
-flask
-requests
