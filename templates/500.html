@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Error 500</title>
+</head>
+<body>
+<link href="{{ url_for('static',filename='styles/forms.css') }}" type= "text/css" rel="stylesheet">
+    <link href="{{ url_for('static',filename='styles/body.css') }}" type= "text/css" rel="stylesheet">
+    <img src="{{ url_for('static',filename='img/500.png') }}" alt="Glory to Arstotzka">
+    <h1>Internal problemes</h1>
+    <p>The source of the problem will be removed</p>
+    <audio controls id="audio" autoplay="true" loop="true" style="display: none;">
+        <source src="{{ url_for('static',filename='audio/audio.ogg') }}" type="audio/ogg">
+        <source src="{{ url_for('static',filename='audio/audio.mp3') }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script type="text/javascript">
+        document.addEventListener('click', musicPlay);
+        function musicPlay() {
+            document.getElementById('audio').play();
+            document.removeEventListener('click', musicPlay);
+        }
+    </script>
+</body>
+</html>

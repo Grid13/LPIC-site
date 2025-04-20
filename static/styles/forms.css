@@ -1,0 +1,46 @@
+.form_columns{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.form_columns h2, .form_columns h3{
+    color: #3D2683;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.form_columns h2,.form_columns a{
+    text-align: center;
+}
+.form_columns label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left: 10px;
+    margin-bottom: 10px;    
+    color: #3D2683;
+    text-align: start;
+}
+.form_columns label.red{
+    color: red !important;
+}
+.form_columns label.green{
+    color: green !important;
+}
+.form_columns input, .form_columns button, .form_columns select{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: #fff;
+    box-shadow: rgb(60 66 87 / 16%) 0px 0px 0px 1px;
+    margin-bottom: 10px;
+}
+.form_columns input[type="submit"], .form_columns input[type="file"], .form_columns button[type="submit"] {
+    background-color: #3D2683;
+    color: #fff;
+}
+.form_columns input[disabled], .form_columns button[disabled] {
+    background-color: #3D2683;
+    color: #fff;
+}
