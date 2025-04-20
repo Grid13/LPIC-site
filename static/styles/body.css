@@ -1,0 +1,45 @@
+body{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h2, h3 {    
+    color: #010101;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+table{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left: 10px;
+    margin-bottom: 10px;    
+    color: #3D2683;
+    width: 0.7vw !important;
+}
+
+table, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    border: 3px solid;
+    border-collapse: collapse;
+    border-color: #3D2683;
+    width: 70%;
+    padding: 5px;
+}
+
+a{
+    color: #3D2683;
+}
+
+a:hover{
+    color: #4e3e7b;
+}
